@@ -1,0 +1,10 @@
+{"states":[[3,2],[2,3],[2,3],[2,3]]}
+{"states":[]}
+{"cost":5,"edge_ids":[1,2],"components":2}
+{"cost":5,"edge_ids":[2,1],"components":2}
+{"cost":3000000000,"edge_ids":[0,1,2],"components":1}
+{"component":[0,0,1,2],"condensation":[[0,1],[1,2]]}
+{"acyclic":false,"order":[]}
+{"acyclic":false,"order":[]}
+{"acyclic":true,"distance":[0,3,-4,0,null],"parent_edge":[-1,0,2,3,-1]}
+{"acyclic":false,"distance":[],"parent_edge":[]}
