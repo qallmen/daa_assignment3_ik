@@ -114,7 +114,7 @@ public final class Algorithms {
 
     // ================= Kruskal =================
 
-    private static Map<String, Object> kruskalCore(int n, int[][] edges) {
+    static Map<String, Object> kruskalCore(int n, int[][] edges) {
         int m = edges.length;
         long[] keys = new long[m];
         for (int i = 0; i < m; i++) keys[i] = key(edges, i);
@@ -143,7 +143,7 @@ public final class Algorithms {
 
     // ================= Prim (lazy heap, restart in every component) =================
 
-    private static Map<String, Object> primCore(int n, int[][] edges) {
+    static Map<String, Object> primCore(int n, int[][] edges) {
         int[][] g = csr(n, edges, 2);
         int[] start = g[0], adj = g[1];
         boolean[] vis = new boolean[n];
